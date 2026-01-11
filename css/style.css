@@ -1,19 +1,69 @@
 body{
-    background-color:darkblue;
+    background-color:rgb(0, 0, 65);
 }
 
-.Titulo{
+.header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 75vh;
+    
+
     color: orangered;
-
+    -webkit-text-stroke: 1pt white;
+    font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-.Titulos{
+.titulo2{
+    color: orange;
+        display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 10vh;
+}
+.paragrafoHeader{
     color: white;
-    .Paragrafos{
-        color: whitesmoke;
-    }
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 20vh;
 }
 
-.Paragrafos{
-    color: whitesmoke;
+.paragrafo{
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.sections{
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+}
+
+.contatos{
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+}
+
+.fotos {
+  
+   color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.fotos img{
+    width: 150px;
+    height: auto;
+    margin: 10px;
+
 }
